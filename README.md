@@ -9,8 +9,8 @@ Um banco de dados de um sistema bancário...
 
 ## Exigências
 - [ ] O modelo conceitual
-- [ ] O esquema relacional no SGBD escolhido (mySQL, Oracle, SQL Server ou PostgreSQL)
-- [ ] Cada esquema deve conter **NO MÍNIMO** 15 tabelas
+- [X] O esquema relacional no SGBD escolhido (mySQL)
+- [X] Cada esquema deve conter **NO MÍNIMO** 15 tabelas
 - [ ] Cada grupo deve implementar **NO MÍNIMO** 5 stored procedures/funções
 - [ ] Cada grupo deve implementar **NO MÍNIMO** 2 triggers
 - [ ] Cada grupo deve implementar **NO MÍNIMO** 2 visões
