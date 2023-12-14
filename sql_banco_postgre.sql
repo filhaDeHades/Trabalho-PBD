@@ -155,7 +155,7 @@ CREATE TABLE IF NOT EXISTS pbd.investimento (
   id_fundo INT NOT NULL,
   valor DOUBLE PRECISION NOT NULL,
   dt_hora TIMESTAMP NOT NULL,
-  qt_cotas INT NOT NULL,
+  qt_cotas DOUBLE PRECISION NOT NULL,
   vr_inicio DOUBLE PRECISION NOT NULL,
   conta_bancaria_nu_conta_bancaria INT NOT NULL,
   fundo_idfundo INT NOT NULL,
