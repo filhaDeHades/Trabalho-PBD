@@ -37,8 +37,7 @@ CREATE TABLE IF NOT EXISTS pbd.usuario_funcionalidade (
   idusuario_funcionalidade SERIAL PRIMARY KEY,
   id_usuario INT NOT NULL,
   id_funcionalidade INT NOT NULL,
-  UNIQUE (id_usuario),
-  UNIQUE (id_funcionalidade),
+  UNIQUE (id_usuario, id_funcionalidade),
   FOREIGN KEY (id_usuario) REFERENCES pbd.usuario (idusuario) ON DELETE NO ACTION ON UPDATE NO ACTION,
   FOREIGN KEY (id_funcionalidade) REFERENCES pbd.funcionalidade (idfuncionalidade) ON DELETE NO ACTION ON UPDATE NO ACTION
 );
